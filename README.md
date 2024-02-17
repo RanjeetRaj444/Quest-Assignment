@@ -20,8 +20,8 @@ This wesite is only for mobile screen view.
 
 ### `Home Page`
 
-![alt text](/src/assets/HomePage.png)
+![alt text](questassignment/src/assets/HomePage.png)
 
 ### `Badge Info`
 
-![alt text](src/assets/BadgeInfo.png)
+![alt text](questassignment/src/assets/BadgeInfo.png)
