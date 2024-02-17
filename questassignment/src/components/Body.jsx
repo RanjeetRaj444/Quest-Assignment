@@ -17,11 +17,11 @@ const Body = () => {
 			title: "Membership",
 		},
 		{
-			url: "/badges/Badges",
+			url: "/",
 			title: "Badges",
 		},
 		{
-			url: "/pointsHistory/Points Histor",
+			url: "/pointsHistory",
 			title: "Points History",
 		},
 	];
@@ -119,8 +119,8 @@ const Body = () => {
 							<div className="section-body">
 								<Routes>
 									<Route path="/members" element={"Not found"} />
-									<Route path="/badges/:params" element={<Badges />} />
-									<Route path="/pointsHistor/:params" element={""} />
+									<Route path="/" element={<Badges />} />
+									<Route path="/pointsHistor/" element={""} />
 									<Route path="*" element={<Error />} />
 								</Routes>
 							</div>
