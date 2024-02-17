@@ -1,0 +1,41 @@
+* {
+	/* padding: 0px; */
+	margin: 0px;
+	/* box-sizing: border-box; */
+}
+@media only screen and (max-width: 391px) {
+	.main {
+		background-color: #5c32e6;
+		height: 100%;
+	}
+
+	.header {
+		display: flex;
+		height: 30px;
+		align-items: center;
+		padding: 20px;
+	}
+
+	.navigation {
+		background-color: #6a44e7;
+		width: 12vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		border-radius: 0.5rem;
+
+		color: white;
+	}
+	.nav-icon {
+		color: white;
+		text-shadow: 0 0 10px blue;
+	}
+	.heading {
+		display: flex;
+		justify-content: center;
+		width: 80vh;
+		color: white;
+		padding-right: 45px;
+	}
+}
